@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.TopNav {
+  height: 50px;
+  background-color: cadetblue;
+  padding: 0 20px;
+}
+
+.Dashboard .main {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+}
+
+.Dashboard .main header,
+.Dashboard .main .content {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Invoices header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Invoices header .Actions {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.Invoices .Content {
+  margin-top: 50px;
+}
+
+.Invoices .row {
+  background-color: cadetblue;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 5px;
+}
+
+.Invoices .row:nth-child(2n),
+.Invoices .row:nth-child(2n):hover {
+  background-color: whitesmoke;
+}
+
+.Invoices .row:hover {
+  background-color: rgb(91, 147, 150);
+}
+
+form .row {
+  margin-top: 5px;
+}
